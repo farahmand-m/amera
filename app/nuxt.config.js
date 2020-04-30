@@ -9,7 +9,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: { color: '#ffa010', height: '5px' },
-  css: [],
+  css: ['@/assets/stylesheets/main.scss'],
   plugins: [],
   buildModules: ['@nuxtjs/eslint-module'],
   modules: ['@nuxtjs/axios'],
